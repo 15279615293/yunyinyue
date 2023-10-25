@@ -1,0 +1,65 @@
+.playlist{
+    width: 1170px;
+    margin-top: 30px;
+}
+.classification{
+    width: 1170px;
+    height: 126px;
+    padding: 15px 0;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.classification-list{
+    width: 219px;
+    height: 116px;
+    position: relative;
+}
+.classification-list:nth-child(1){
+    width: 110px;
+}
+.classification-list .list-title{
+    width: 100%;
+    height: 19px;
+    font-size: 14px;
+    font-weight: 700;
+}
+.classificationnav{
+    width: 100%;
+    height: 90px;
+    margin-top: 7px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.classification-nav{
+    width: 73px;
+    line-height: 30px;
+    font-size: 14px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.classification-list:nth-child(1) .classification-nav{
+    width: 54px;
+}
+.classification-show{
+    line-height: 40px;
+    background-color: white;
+    position: absolute;
+    top: 130px;
+    right: -15%;
+    font-size: 14px;
+    color: #909090;
+    display: none;
+}
+.classification-show span{
+    padding: 0 10px;
+}
+.isShow{
+    display: block;
+}
+.catActive{
+    background-color: #ff641e;
+}

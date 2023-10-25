@@ -1,0 +1,31 @@
+.h-heads{
+    width: 100%;
+    height: 69px;
+    line-height: 69px;
+    display: flex;
+}
+.h-heads p{
+    font-size: 28px;
+    margin-right: 20px;
+    font-weight: 700;
+}
+.h-heads span{
+    font-size: 16px;
+    margin: 3px 15px;
+    position: relative;
+}
+
+.spanactive {
+    font-weight: 600;
+    color: #121826;
+}
+
+.spanactive::after {
+    content: '';
+    width: 50%;
+    height: 2px;
+    position: absolute;
+    left: 20%;
+    top: 80%;
+    background: #ff6600;
+}

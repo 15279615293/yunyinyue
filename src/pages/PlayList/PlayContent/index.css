@@ -1,0 +1,100 @@
+.playcontent{
+    width: 100%;
+    margin-top: 50px;
+}
+.playcontent-hands{
+    width: 100%;
+    line-height: 60px;
+    display: flex;
+}
+.playcontent-hands h2{
+    font-size: 24px;
+}
+.playcontent-hands h2 .iconfont{
+    color: #909090;
+    position: relative;
+    top: -8px;
+    margin-left: 5px;
+}
+.playcontent-hands span{
+    font-size: 14px;
+    margin-left: 20px;
+    line-height: 65px;
+    position: relative;
+}
+.playActive{
+    font-weight: 600;
+}
+.playActive::after {
+    content: '';
+    width: 60%;
+    height: 2px;
+    position: absolute;
+    left: 20%;
+    top: 70%;
+    background: #ff6600;
+}
+.playcontent-content{
+    width: 1140px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+
+.playcontent-content .contents{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.playcontent-content .contents .list{
+    width: 148px;
+    height: 100%;
+    margin-top: 20px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    position: relative;
+}
+.playcontent-content .contents .list img{
+    width: 148px;
+    height: 148px;
+    border-radius: 5px;
+    box-shadow: 5px 0px 5px #888888;
+}
+.playcontent-content .contents .list p{
+    font-size: 16px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+.playcontent-content .contents .list span{
+    color: #ff6600;
+    font-size: 12px;
+    margin-right: 10px;
+}
+.playcontent-content .contents .list .number{
+    padding: 0 10px;
+    background-color: rgba(72, 71, 71, 0.3);
+    position: absolute;
+    top: 7px;
+    right: 0px;
+    color: white;
+    display: flex;
+    align-items: center;
+    border-radius: 0 5px 0 0;
+}
+.playcontent-content .contents .list .number span{
+    margin: 0 2px;
+    color: white;
+}
+.playcontent-content .contents .list .number i{
+    font-size: 20px;
+}
+.spins{
+    width: 100%;
+    line-height: 100px;
+    text-align: center;
+}

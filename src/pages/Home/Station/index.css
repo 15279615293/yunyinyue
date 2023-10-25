@@ -1,0 +1,95 @@
+.station-out{
+    width: 1170px;
+    height: 465px;
+    margin: 30px 0;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.station-out .station{
+    width: 649px;
+    height: 425px;
+    padding: 20px 0px 20px 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+.station .titles,.arts .titles{
+    font-size: 28px;
+}
+.station-out .station-list{
+    width: 100%;
+    height: 379px;
+    margin-top: 10px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+}
+.station-nav{
+    width: 324px;
+    height: 100px;
+    display: flex;
+}
+.station-nav img{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+.station-nav .texts{
+    padding: 0 20px;
+    width: 184px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+}
+.station-nav .texts p:nth-child(1),
+.station-nav .texts .iconfont{
+    font-size: 18px;
+    font-weight: 700;
+}
+.station-nav .tls{
+    margin-left: 10px;
+}
+.station-nav .texts p:nth-child(1){
+    width: 100%;
+}
+.station-nav .texts p:nth-child(2){
+    width: 100%;
+    color: #909090;
+}
+.station-nav .texts p:nth-child(1),
+.station-nav .texts p:nth-child(2){
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+.station-nav .texts p:nth-child(3){
+    width: 100%;
+    color: #909090;
+    font-size: 12px;
+}
+.station-nav .texts p:nth-child(3) span:nth-child(2){
+    float: right;
+}
+.station-out .arts{
+    width: 440px;
+    height: 425px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+.arts .carousel{
+    width: 440px;
+    height: 369px;
+}
+.carousel img{
+    width: 100px !important;
+    height: 100px;
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.ant-carousel .slick-dots li button{
+    background-color: #ff641e !important;
+}

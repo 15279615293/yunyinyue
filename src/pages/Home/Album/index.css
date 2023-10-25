@@ -1,0 +1,81 @@
+.album{
+    width: 1140px;
+    height: 390px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: white;
+}
+.album .contents{
+    width: 100%;
+    height: 321px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.album .contents .nav{
+    width: 267px;
+    height: 91px;
+    z-index: 1;
+    position: relative;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    background-color: #f3f1f1;
+}
+.album .contents .nav .img1,.img2{
+    width: 91px;
+    height: 91px;
+    z-index: 2;
+    border-radius: 5px;
+}
+.album .contents .nav .img2{
+    position: absolute;
+    top: 0;left: 25px;
+    z-index: -1 !important;
+    transition: all .4s linear;
+   
+}
+.album .contents .nav .img1:hover+.img2{
+    transform: rotate(90deg);
+    left: 30px;
+}
+.album .contents .nav .img2:hover{
+    transform: rotate(90deg);
+    left: 30px;
+}
+.album .contents .nav .texts{
+    height: 52px;
+    margin-left: 45px;
+}
+.album .contents .nav .texts p{
+    height: 26px;
+    line-height: 26px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.nav .texts p:nth-child(1){
+    max-width: 96px;
+    font-size: 16px;
+}
+.nav .texts p:nth-child(2){
+    font-size: 14px;
+    color: #909090;
+    max-width: 126px;
+}
+.album .contents .nav .labels{
+    width: 100px;
+    height: 25px;
+    background-color: #ff641e;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    line-height: 25px;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 5px;right: -30px;
+}
+.album .contents .nav:hover>.texts p:nth-child(1){
+    color: #ff641e;
+}

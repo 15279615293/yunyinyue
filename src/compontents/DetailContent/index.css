@@ -1,0 +1,207 @@
+.rank-content {
+    width: 800px;
+}
+
+.rank-content .hands {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rank-content .hands img {
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.hands-title {
+    width: 490px;
+    height: 210px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.hands-title .one,
+.hands-title .three
+{
+    width: 100%;
+}
+
+.hands-title .one span:nth-child(1) {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.hands-title .one span:nth-child(2) {
+    font-size: 14px;
+    color: #909090;
+}
+.hands-title .two{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    margin: 20px 0 10px 0;
+}
+.hands-title .two img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+.hands-title .two span:nth-child(2){
+    margin: 0 20px 0 10px;
+}
+.hands-title .two span:nth-child(3){
+    color: #909090;
+}
+.hands-title .two div:nth-child(2){
+    color: #ff641e;
+    font-size: 12px;
+}
+.hands-title .two div:nth-child(1){
+    display: flex;align-items: center;
+}
+.hands-title .three span{
+    color: #909090;
+    margin-right:15px;
+    font-size: 14px;
+}
+.hands-title .three span .iconfont{
+    font-size: 14px;
+    margin-right: 5px;
+}
+.hands-title .four{
+    font-size: 14px;
+    margin: 30px 0 10px 0;
+}
+.hands-title .five{
+    width: 100%;
+    color: #909090;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+
+
+.rank-content .content-list{
+    width: 760px;
+    padding: 30px 20px;
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+.content-list .list-hands{
+    width: 760px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.list-hands .left span:nth-child(1){
+    font-size: 20px;
+    font-weight: 500px;
+    line-height: 40px;
+    margin-right: 10px;
+}
+.list-hands .right span{
+    line-height: 40px;
+    padding: 6px 20px;
+    margin: 0 5px;
+    border-radius: 30px;
+    font-size: 14px;
+    color: white;
+}
+.list-hands .right span .iconfont{
+    margin-right: 5px
+}
+.list-hands .right span:nth-child(1){
+    background-color: #ff641e;
+}
+.list-hands .right span:nth-child(2){
+    background-color: #f0f0f0;
+    color: #909090;
+}
+.content-list .list-nav{
+    width: 100%;
+    display: flex;
+}
+.content-list .list-nav div{
+    line-height: 40px;
+    font-size: 14px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.content-list .list-nav div .iconfont{
+    font-size: 20px;
+    color: #909090;
+    font-weight: 600;
+    display: none;
+}
+.content-list .list-nav:hover div .hide{
+    display: none;
+}
+.content-list .list-nav:hover div .iconfont{
+    display: inline;
+}
+.list-nav div:nth-child(1) .iconfont:hover{
+    color: #ff641e !important;
+}
+.list-nav div:nth-child(5) .iconfont:hover{
+    color: #ff641e !important;
+}
+.content-list .list-nav div:nth-child(1){
+    width: 90px;
+    text-align: center;
+}
+.content-list .list-nav div:nth-child(2){
+    width: 249px;
+}
+.content-list .list-nav div:nth-child(3){
+    width: 189px;
+}
+.content-list .list-nav div:nth-child(4){
+    width: 119px;
+}
+.content-list .list-nav div:nth-child(5){
+    width: 110px;
+    text-align: right;
+}
+.colors{
+    color: #909090;
+    font-weight: 600;
+}
+.paging{
+    width: 100%;
+    margin-top: 30px;
+}
+.ant-pagination .ant-pagination-item-active{
+    background: none;
+    border: none;
+}
+.content-list .list-nav div:nth-child(2) .iconfont{
+    display: inline;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 10px;
+}
+.isVip{
+    color: #ff641e !important;
+}
+.isVip .iconfont{
+    color: #ff641e !important;
+}
+.content-botom{
+    width: 100%;
+    line-height: 30px;
+    text-align: center;
+    background-color: #ff641e;
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: white;
+    border-radius: 30px;
+}

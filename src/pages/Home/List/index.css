@@ -1,0 +1,7 @@
+.ranklist {
+    width: 1170px;
+    height: 522px;
+    margin: 30px 0;
+    display: flex;
+    justify-content: space-between;
+}
